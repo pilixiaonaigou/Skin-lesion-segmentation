@@ -1,0 +1,22 @@
+{
+
+  "exp_name": "VesselNet",
+  "epochs": 50,
+  "batch_size": 25,
+  "patch_height": 128,
+  "patch_width": 128,
+  "subsample": 500,
+  "total_train": 40,
+  "total_val": 20,
+  "train_datatype": "tif",
+  "train_gt_datatype": "tif",
+  "val_datatype": "tif",
+  "val_gt_datatype": "tif",
+  "test_datatype": "tif",
+  "test_gt_datatype": "tif",
+  "height": 960,
+  "width": 999,
+  "stride_height": 33,
+  "stride_width": 33,
+  "seg_num": 1
+}
